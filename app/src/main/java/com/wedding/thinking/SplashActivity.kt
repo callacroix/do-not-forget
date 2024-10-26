@@ -15,6 +15,6 @@ class SplashActivity : androidx.appcompat.app.AppCompatActivity() {
             // Start the main activity and finish the splash activity
             startActivity(Intent(this, MainActivity::class.java))
             finish()
-        }, 3000) // Delay for 3 seconds (adjust as needed)
+        }, 3000) // Delay for 3 seconds
     }
 }
